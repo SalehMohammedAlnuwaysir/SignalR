@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08741F789080DF30C7A98444 /* Pods_SignalR_iOS_SignalR_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9CD2486A94659F8E2A803F /* Pods_SignalR_iOS_SignalR_iOSUITests.framework */; };
+		6C9788DF2500F10B009D757C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9788DE2500F10B009D757C /* AppDelegate.swift */; };
+		6C9788E12500F10B009D757C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9788E02500F10B009D757C /* SceneDelegate.swift */; };
+		6C9788E32500F10B009D757C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9788E22500F10B009D757C /* ViewController.swift */; };
+		6C9788E62500F10B009D757C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9788E42500F10B009D757C /* Main.storyboard */; };
+		6C9788E82500F10D009D757C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9788E72500F10D009D757C /* Assets.xcassets */; };
+		6C9788EB2500F10D009D757C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9788E92500F10D009D757C /* LaunchScreen.storyboard */; };
+		6C9788F62500F10D009D757C /* SignalR_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9788F52500F10D009D757C /* SignalR_iOSTests.swift */; };
+		6C9789012500F10D009D757C /* SignalR_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9789002500F10D009D757C /* SignalR_iOSUITests.swift */; };
+		6C97890F2500FC28009D757C /* SignalRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C97890E2500FC28009D757C /* SignalRService.swift */; };
+		8A284C1CF8C6D8AD35368D3A /* Pods_SignalR_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B19FAB47091CAC73E54BF /* Pods_SignalR_iOS.framework */; };
+		C6AD9FA3F1B8631B429260EE /* Pods_SignalR_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B91525C6211CA0C5717D5B /* Pods_SignalR_iOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C9788F22500F10D009D757C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9788D32500F10B009D757C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C9788DA2500F10B009D757C;
+			remoteInfo = SignalR_iOS;
+		};
+		6C9788FD2500F10D009D757C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9788D32500F10B009D757C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C9788DA2500F10B009D757C;
+			remoteInfo = SignalR_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B91525C6211CA0C5717D5B /* Pods_SignalR_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1939274EBE3571F7ACFF9CC7 /* Pods-SignalR_iOS-SignalR_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_iOS-SignalR_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-SignalR_iOS-SignalR_iOSUITests/Pods-SignalR_iOS-SignalR_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EBF14A55B4F56DC73DF54CE /* Pods-SignalR_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SignalR_iOS/Pods-SignalR_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		44F1F14EA963C5DF03FC3B52 /* Pods-SignalR_iOS-SignalR_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_iOS-SignalR_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-SignalR_iOS-SignalR_iOSUITests/Pods-SignalR_iOS-SignalR_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9788DB2500F10B009D757C /* SignalR_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalR_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9788DE2500F10B009D757C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C9788E02500F10B009D757C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C9788E22500F10B009D757C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C9788E52500F10B009D757C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C9788E72500F10D009D757C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C9788EA2500F10D009D757C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C9788EC2500F10D009D757C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9788F12500F10D009D757C /* SignalR_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalR_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9788F52500F10D009D757C /* SignalR_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalR_iOSTests.swift; sourceTree = "<group>"; };
+		6C9788F72500F10D009D757C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9788FC2500F10D009D757C /* SignalR_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalR_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9789002500F10D009D757C /* SignalR_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalR_iOSUITests.swift; sourceTree = "<group>"; };
+		6C9789022500F10D009D757C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C97890E2500FC28009D757C /* SignalRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalRService.swift; sourceTree = "<group>"; };
+		8F5A3FFF4A7A9E5DC4EFC29D /* Pods-SignalR_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_iOS.release.xcconfig"; path = "Target Support Files/Pods-SignalR_iOS/Pods-SignalR_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		AA9CD2486A94659F8E2A803F /* Pods_SignalR_iOS_SignalR_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_iOS_SignalR_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF793444BB1DB1DBF3DDF28 /* Pods-SignalR_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SignalR_iOSTests/Pods-SignalR_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C756D27FAC8AB273439E4D7A /* Pods-SignalR_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-SignalR_iOSTests/Pods-SignalR_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E15B19FAB47091CAC73E54BF /* Pods_SignalR_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C9788D82500F10B009D757C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A284C1CF8C6D8AD35368D3A /* Pods_SignalR_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9788EE2500F10D009D757C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AD9FA3F1B8631B429260EE /* Pods_SignalR_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9788F92500F10D009D757C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08741F789080DF30C7A98444 /* Pods_SignalR_iOS_SignalR_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269C6F330920B7661C20B4CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EBF14A55B4F56DC73DF54CE /* Pods-SignalR_iOS.debug.xcconfig */,
+				8F5A3FFF4A7A9E5DC4EFC29D /* Pods-SignalR_iOS.release.xcconfig */,
+				44F1F14EA963C5DF03FC3B52 /* Pods-SignalR_iOS-SignalR_iOSUITests.debug.xcconfig */,
+				1939274EBE3571F7ACFF9CC7 /* Pods-SignalR_iOS-SignalR_iOSUITests.release.xcconfig */,
+				ADF793444BB1DB1DBF3DDF28 /* Pods-SignalR_iOSTests.debug.xcconfig */,
+				C756D27FAC8AB273439E4D7A /* Pods-SignalR_iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E43CEE195D7C22C34E33C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E15B19FAB47091CAC73E54BF /* Pods_SignalR_iOS.framework */,
+				AA9CD2486A94659F8E2A803F /* Pods_SignalR_iOS_SignalR_iOSUITests.framework */,
+				06B91525C6211CA0C5717D5B /* Pods_SignalR_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C9788D22500F10B009D757C = {
+			isa = PBXGroup;
+			children = (
+				6C9788DD2500F10B009D757C /* SignalR_iOS */,
+				6C9788F42500F10D009D757C /* SignalR_iOSTests */,
+				6C9788FF2500F10D009D757C /* SignalR_iOSUITests */,
+				6C9788DC2500F10B009D757C /* Products */,
+				269C6F330920B7661C20B4CB /* Pods */,
+				5E43CEE195D7C22C34E33C65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C9788DC2500F10B009D757C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9788DB2500F10B009D757C /* SignalR_iOS.app */,
+				6C9788F12500F10D009D757C /* SignalR_iOSTests.xctest */,
+				6C9788FC2500F10D009D757C /* SignalR_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9788DD2500F10B009D757C /* SignalR_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C9788DE2500F10B009D757C /* AppDelegate.swift */,
+				6C9788E02500F10B009D757C /* SceneDelegate.swift */,
+				6C97890E2500FC28009D757C /* SignalRService.swift */,
+				6C9788E22500F10B009D757C /* ViewController.swift */,
+				6C9788E42500F10B009D757C /* Main.storyboard */,
+				6C9788E72500F10D009D757C /* Assets.xcassets */,
+				6C9788E92500F10D009D757C /* LaunchScreen.storyboard */,
+				6C9788EC2500F10D009D757C /* Info.plist */,
+			);
+			path = SignalR_iOS;
+			sourceTree = "<group>";
+		};
+		6C9788F42500F10D009D757C /* SignalR_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C9788F52500F10D009D757C /* SignalR_iOSTests.swift */,
+				6C9788F72500F10D009D757C /* Info.plist */,
+			);
+			path = SignalR_iOSTests;
+			sourceTree = "<group>";
+		};
+		6C9788FF2500F10D009D757C /* SignalR_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C9789002500F10D009D757C /* SignalR_iOSUITests.swift */,
+				6C9789022500F10D009D757C /* Info.plist */,
+			);
+			path = SignalR_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9788DA2500F10B009D757C /* SignalR_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9789052500F10D009D757C /* Build configuration list for PBXNativeTarget "SignalR_iOS" */;
+			buildPhases = (
+				880606E20FE5E6ABB01BE277 /* [CP] Check Pods Manifest.lock */,
+				6C9788D72500F10B009D757C /* Sources */,
+				6C9788D82500F10B009D757C /* Frameworks */,
+				6C9788D92500F10B009D757C /* Resources */,
+				260050434D79FAF8E9240826 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalR_iOS;
+			productName = SignalR_iOS;
+			productReference = 6C9788DB2500F10B009D757C /* SignalR_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C9788F02500F10D009D757C /* SignalR_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9789082500F10D009D757C /* Build configuration list for PBXNativeTarget "SignalR_iOSTests" */;
+			buildPhases = (
+				E3BE5CD438DF14506BE1E75B /* [CP] Check Pods Manifest.lock */,
+				6C9788ED2500F10D009D757C /* Sources */,
+				6C9788EE2500F10D009D757C /* Frameworks */,
+				6C9788EF2500F10D009D757C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9788F32500F10D009D757C /* PBXTargetDependency */,
+			);
+			name = SignalR_iOSTests;
+			productName = SignalR_iOSTests;
+			productReference = 6C9788F12500F10D009D757C /* SignalR_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C9788FB2500F10D009D757C /* SignalR_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C97890B2500F10D009D757C /* Build configuration list for PBXNativeTarget "SignalR_iOSUITests" */;
+			buildPhases = (
+				57BD70F9BA35A9878239D44D /* [CP] Check Pods Manifest.lock */,
+				6C9788F82500F10D009D757C /* Sources */,
+				6C9788F92500F10D009D757C /* Frameworks */,
+				6C9788FA2500F10D009D757C /* Resources */,
+				C72A1AF14729FC3A6E12B532 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9788FE2500F10D009D757C /* PBXTargetDependency */,
+			);
+			name = SignalR_iOSUITests;
+			productName = SignalR_iOSUITests;
+			productReference = 6C9788FC2500F10D009D757C /* SignalR_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C9788D32500F10B009D757C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Saleh Mohammed ";
+				TargetAttributes = {
+					6C9788DA2500F10B009D757C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					6C9788F02500F10D009D757C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6C9788DA2500F10B009D757C;
+					};
+					6C9788FB2500F10D009D757C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6C9788DA2500F10B009D757C;
+					};
+				};
+			};
+			buildConfigurationList = 6C9788D62500F10B009D757C /* Build configuration list for PBXProject "SignalR_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C9788D22500F10B009D757C;
+			productRefGroup = 6C9788DC2500F10B009D757C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9788DA2500F10B009D757C /* SignalR_iOS */,
+				6C9788F02500F10D009D757C /* SignalR_iOSTests */,
+				6C9788FB2500F10D009D757C /* SignalR_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C9788D92500F10B009D757C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9788EB2500F10D009D757C /* LaunchScreen.storyboard in Resources */,
+				6C9788E82500F10D009D757C /* Assets.xcassets in Resources */,
+				6C9788E62500F10B009D757C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9788EF2500F10D009D757C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9788FA2500F10D009D757C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260050434D79FAF8E9240826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignalR_iOS/Pods-SignalR_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignalR_iOS/Pods-SignalR_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignalR_iOS/Pods-SignalR_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57BD70F9BA35A9878239D44D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR_iOS-SignalR_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880606E20FE5E6ABB01BE277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C72A1AF14729FC3A6E12B532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignalR_iOS-SignalR_iOSUITests/Pods-SignalR_iOS-SignalR_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignalR_iOS-SignalR_iOSUITests/Pods-SignalR_iOS-SignalR_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignalR_iOS-SignalR_iOSUITests/Pods-SignalR_iOS-SignalR_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BE5CD438DF14506BE1E75B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C9788D72500F10B009D757C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C97890F2500FC28009D757C /* SignalRService.swift in Sources */,
+				6C9788E32500F10B009D757C /* ViewController.swift in Sources */,
+				6C9788DF2500F10B009D757C /* AppDelegate.swift in Sources */,
+				6C9788E12500F10B009D757C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9788ED2500F10D009D757C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9788F62500F10D009D757C /* SignalR_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9788F82500F10D009D757C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9789012500F10D009D757C /* SignalR_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C9788F32500F10D009D757C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C9788DA2500F10B009D757C /* SignalR_iOS */;
+			targetProxy = 6C9788F22500F10D009D757C /* PBXContainerItemProxy */;
+		};
+		6C9788FE2500F10D009D757C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C9788DA2500F10B009D757C /* SignalR_iOS */;
+			targetProxy = 6C9788FD2500F10D009D757C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C9788E42500F10B009D757C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9788E52500F10B009D757C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C9788E92500F10D009D757C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9788EA2500F10D009D757C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C9789032500F10D009D757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C9789042500F10D009D757C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C9789062500F10D009D757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBF14A55B4F56DC73DF54CE /* Pods-SignalR_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C542WV56VM;
+				INFOPLIST_FILE = SignalR_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SalehMohammed.ServiceProvider.SignalR-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C9789072500F10D009D757C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5A3FFF4A7A9E5DC4EFC29D /* Pods-SignalR_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C542WV56VM;
+				INFOPLIST_FILE = SignalR_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SalehMohammed.ServiceProvider.SignalR-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C9789092500F10D009D757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF793444BB1DB1DBF3DDF28 /* Pods-SignalR_iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignalR_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SalehMohammed.ServiceProvider.SignalR-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignalR_iOS.app/SignalR_iOS";
+			};
+			name = Debug;
+		};
+		6C97890A2500F10D009D757C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C756D27FAC8AB273439E4D7A /* Pods-SignalR_iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignalR_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SalehMohammed.ServiceProvider.SignalR-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignalR_iOS.app/SignalR_iOS";
+			};
+			name = Release;
+		};
+		6C97890C2500F10D009D757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F1F14EA963C5DF03FC3B52 /* Pods-SignalR_iOS-SignalR_iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignalR_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SalehMohammed.ServiceProvider.SignalR-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignalR_iOS;
+			};
+			name = Debug;
+		};
+		6C97890D2500F10D009D757C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1939274EBE3571F7ACFF9CC7 /* Pods-SignalR_iOS-SignalR_iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignalR_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SalehMohammed.ServiceProvider.SignalR-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignalR_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9788D62500F10B009D757C /* Build configuration list for PBXProject "SignalR_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9789032500F10D009D757C /* Debug */,
+				6C9789042500F10D009D757C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9789052500F10D009D757C /* Build configuration list for PBXNativeTarget "SignalR_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9789062500F10D009D757C /* Debug */,
+				6C9789072500F10D009D757C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9789082500F10D009D757C /* Build configuration list for PBXNativeTarget "SignalR_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9789092500F10D009D757C /* Debug */,
+				6C97890A2500F10D009D757C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C97890B2500F10D009D757C /* Build configuration list for PBXNativeTarget "SignalR_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C97890C2500F10D009D757C /* Debug */,
+				6C97890D2500F10D009D757C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C9788D32500F10B009D757C /* Project object */;
+}
